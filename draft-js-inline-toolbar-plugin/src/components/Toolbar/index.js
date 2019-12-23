@@ -139,6 +139,8 @@ export default class Toolbar extends React.Component {
         style={this.getStyle()}
         ref={this.handleToolbarRef}
       >
+        test
+        <button>test</button>
         {OverrideContent ? (
           <OverrideContent {...childrenProps} />
         ) : (
